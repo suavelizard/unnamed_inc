@@ -159,10 +159,10 @@ h6 {
         padding-bottom: 20px;
         .form-control {
             color: #898989;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 300;
-            padding: 15px 20px;
-            height: 60px;
+            padding: 10px 20px;
+            height: 40px;
             border: 0;
             border-radius: 0px;
             box-shadow: none;
@@ -172,7 +172,7 @@ h6 {
         }
         .input-group-addon {
             border-radius: 0px;
-            padding: 14px 26px;
+            padding: 0px 16px;
             background-color: $light-green-color;
             border: none;
             position: relative;
@@ -188,7 +188,10 @@ h6 {
         }
     }
 }
-
+#map_canvas{
+width:100%;
+height:380px !important;
+}
 //FOOTER
 .footer {
     background: $dark-blue-grey-color;
