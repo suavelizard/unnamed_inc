@@ -43,7 +43,52 @@ h5,
 h6 {
     font-family: "Open sans", Helvetica, Arial;
 }
+.section{
+    margin-bottom: 25px;
+    padding: 80px 0px;
+}
+.icon-list li {
+    list-style: outside square;
+    position: relative;
+    margin-bottom: 8px;
+    padding-left: 30px;
+}
+.img-large-header-offset{
+      margin-top: 30px;
+}
+.title-heading {
+    margin: 0px auto 60px;
 
+    small {
+    // font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    color: $light-grey-2-color;
+    display: block;
+}
+}   
+.short-post{
+
+     .short-post-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    font-weight: 300;
+    line-height: initial;
+    margin: 20px 0px 5px;
+    text-align: center;
+}
+
+.post-meta {
+    font-size: 12px;
+    text-align: center;
+    span {
+    display: inline-block;
+    margin: 0px 10px;
+}
+}
+}
 //MAIN MENU
 .mainmenu-wrapper {
     background-color: $dark-blue-grey-color;
@@ -89,6 +134,15 @@ h6 {
         text-decoration: none;
         background-color: initial;
     }
+    #navbar{
+    overflow: hidden;
+margin-bottom: 20px;
+}
+.navbar-collapse{
+    border-top: 0;
+  box-shadow: none;
+  max-height:360px;
+}
 }
 
 .btn-action,
@@ -100,7 +154,7 @@ h6 {
 }
 
 #head {
-    background: url("../images/bg_header.jpg") no-repeat scroll 0% 0% / cover $lighter-blue-grey-color;
+    background: url("") no-repeat scroll 0% 0% / cover $lighter-blue-grey-color;
     min-height: 520px;
     text-align: center;
     padding-top: 240px;
@@ -139,8 +193,13 @@ h6 {
 }
 
 //CLIENT LOGOS
-.clients-logo-wrapper img {
-    max-width: 100%;
+.clients-logos{
+    padding: initial;
+}
+.clients-logo-wrapper {
+    img {
+        max-width: 100%;
+    }
 }
 
 //CONTACT FORM
@@ -210,6 +269,7 @@ height:380px !important;
         color: $light-grey-2-color;
         font-size: 1.3em;
         border-bottom: 1px dotted $light-grey-color;
+        padding-bottom: 10px;
     }
     .portfolio-item {
         position: relative;
@@ -232,11 +292,21 @@ height:380px !important;
         list-style-type: none;
         margin-left: 0;
     }
-    .footer-copyright {
-        text-align: center;
-        color: $light-grey-color;
-        border-top: 1px dotted $light-grey-color;
-        padding-top: 10px;
-        font-size: 0.9em;
-    }
+    // .footer-copyright {
+    //     text-align: center;
+    //     color: $light-grey-color;
+    //     border-top: 1px dotted $light-grey-color;
+    //     padding-top: 10px;
+    //     font-size: 0.9em;
+    // }
+    
 }
+.sub-footer{
+      background-color: #111;
+      padding-top:10px;
+
+  .bottom-link li{
+      display: inline-block;
+      margin-left: 20px;
+    }
+  } 

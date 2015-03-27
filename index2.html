@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,900italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" media="screen" href="fonts/font-awesome/font-awesome.min.css">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/leaflet.ie.css" />
@@ -37,6 +37,7 @@
         <div class="container">
             <nav id="mainmenu" class="mainmenu">
                 <div class="container-fluid">
+                <a href="index.html" class="visible-xs"><img src="http://placehold.it/150x50" alt="Multipurpose Twitter Bootstrap Template"></a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -45,8 +46,8 @@
                     </button>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="logo-wrapper">
-                                <a href="index.html"><img src="img/mPurpose-logo.png" alt="Multipurpose Twitter Bootstrap Template"></a>
+                            <li class="logo-wrapper hidden-xs hidden-md">
+                                <a href="index.html"><img src="http://placehold.it/150x50" alt="Multipurpose Twitter Bootstrap Template"></a>
                             </li>
                             <li class="active">
                                 <a href="index.html">Home</a>
@@ -71,7 +72,7 @@
             </div>
         </div>
     </header>
-    <div class="container text-center">
+<!--     <div class="container text-center">
         <br>
         <br>
         <h2 class="thin">The best place to tell people why they are here</h2>
@@ -79,9 +80,58 @@
             The difference between involvement and commitment is like an eggs-and-ham breakfast:
             <br> the chicken was involved; the pig was committed.
         </p>
+    </div> -->
+
+        <div class="section">
+    <div class="container">
+        <h2 class="title-heading text-center"> See what is hot today<small>News &amp; updates</small></h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="short-post"> <a class="post-thumb thumb hidden-xs" href="img/thumbs/news1.jpg" title="Apple is planning to design a cPhone in 2015."><img class="img-responsive" src="http://placehold.it/370x245" alt="News one" ></a>
+                    <h4 class="short-post-title"><a href="javascript:void(0);" title="Apple is planning to design a cPhone in 2015.">Apple is planning to design a cPhone in 2015.</a></h4>
+                    <p class="post-meta"><span class="date">Nov 25, 2014</span> <span class="author">by John Doe</span></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="short-post"> <a class="post-thumb thumb hidden-xs" href="img/thumbs/news2.jpg" title="Something amazing is happening here."><img class="img-responsive" src="http://placehold.it/370x245" alt="News one" ></a>
+                    <h4 class="short-post-title"><a href="javascript:void(0);" title="Something amazing is happening here.">Something amazing is happening here.</a></h4>
+                    <p class="post-meta"><span class="date">Nov 25, 2014</span> <span class="author">by John Doe</span></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="short-post"> <a class="post-thumb thumb hidden-xs" href="img/thumbs/news3.jpg" title="This is another news update."><img class="img-responsive" src="http://placehold.it/370x245" alt="News one"></a>
+                    <h4 class="short-post-title"><a href="javascript:void(0);" title="This is another news update.">This is another news update.</a></h4>
+                    <p class="post-meta"><span class="date">Nov 25, 2014</span> <span class="author">by John Doe</span></p>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+    <div class="section">
+<div class="container">
+<div class="row">
+                <div class="col-md-6">
+                  <h2>Instant messaging system</h2>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.</p>
+                  <ul class="icon-list">
+                    <li><i class="pe-7s-comment"></i> Lorem ipsum dolor sitaet, elit. Done lectus non purus vestibulum.</li>
+                    <li><i class="pe-7s-compass"></i> Integer quis elit id felis condimentum fermentum.</li>
+                    <li><i class="pe-7s-bluetooth"></i> Nulla eleifend justo eu urna ultrices tincidunt pretium.</li>
+                    <li><i class="pe-7s-scissors"></i> Quisque lacinia auctor mattis. Duis sed nisl justo.</li>
+                    <li><i class="pe-7s-plug"></i> Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit lectus.</li>
+                    <li><i class="pe-7s-joy"></i> Etiam varius dui eget lorem elementum eget mattis sapien interdum.</li>
+                    <li><i class="pe-7s-way"></i> Nulla eleifend justo eu urna ultrices sed auctor tincidunt pretium.</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 hidden-xs">
+                  <div class="img-large-header-offset"> <img src="http://placehold.it/600x400" class="img-responsive"> </div>
+                </div>
+              </div>
+</div>
     </div>
     <div class="section">
         <div class="container">
+                  <h2 class="">Contact us</h2>
             <div class="row">
                 <div class="col-md-6">
                     <form action="" name="contact" id="contact">
@@ -110,10 +160,10 @@
             </div>
         </div>
     </div>
-    <!-- Our Clients -->
-    <div class="section">
+        <!-- Our Clients -->
+    <div class="section clients-logos">
         <div class="container">
-            <h2 class="thin">Our Clients</h2>
+            <h2 class="">Our Clients</h2>
             <div class="clients-logo-wrapper text-center row">
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
                     <a href="#"><img src="img/logos/canon.png" alt="Client Name"></a>
@@ -163,7 +213,7 @@
                     <h3>Our Latest Work</h3>
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <a href="page-portfolio-item.html"><img src="img/portfolio6.jpg" alt="Project Name"></a>
+                            <a href="#"><img src="http://placehold.it/300x150" alt="Project Name" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -204,14 +254,41 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
+<!--             <div class="row">
+                <div class="col-md-6 col-xs-12">
                     <div class="footer-copyright">&copy; 2013 mPurpose. All rights reserved.</div>
                 </div>
-            </div>
-        </div>
-    </div>
+                 <div class="col-md-6 col-xs-12">
+                            <ul class="bottom-link">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                            </ul>
+                        </div>
+            </div><--></-->
+        </div> 
 
+    </div>
+        <div class="sub-footer">
+        <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright">
+                                <span>© 2015 Unnamed inc. <a href="#"><strong>Unamed inc.</strong></a></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <ul class="bottom-link pull-right">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
       var map;
