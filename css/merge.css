@@ -231,11 +231,64 @@ h6 {
     list-style-type: none;
     margin-left: 0; }
 
+.team ul {
+  margin-top: 2px;
+  padding-left: 0px;
+  display: inline-block;
+  margin: 0 auto; }
+
+.team ul li {
+  padding: 0 10px;
+  float: left;
+  list-style: none;
+  font-family: FontAwesome;
+  font-size: 15px; }
+
+.team h4 {
+  margin-top: 24px;
+  font-size: 20px;
+  color: #7C7C7C;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 300; }
+
 .sub-footer {
   background-color: #111;
   padding-top: 10px; }
   .sub-footer .bottom-link li {
     display: inline-block;
     margin-left: 20px; }
+
+.big_404 {
+  font-size: 270px;
+  line-height: 270px;
+  font-weight: 700;
+  padding-top: 20px; }
+
+.error {
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: 300;
+  padding-top: 12px; }
+
+.big_404_title {
+  padding-top: 56px;
+  font-size: 75px;
+  line-height: 60px;
+  font-weight: 700; }
+
+.section-header {
+  background-color: #131415; }
+
+.section-header h1 {
+  margin-bottom: 10px;
+  line-height: 35px; }
+
+.section-header small {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.breadcrumbs-inner {
+  height: 25px; }
 
 /*# sourceMappingURL=merge.css.map */
